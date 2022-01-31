@@ -1,0 +1,135 @@
+body{
+    background: rgb(126, 123, 123);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    flex: 1;
+}
+ h1{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 24px;
+    
+    
+}
+h2{
+    font-size: 28px;
+    color: white;
+}
+#result{
+    font-size: 36px;
+    color: rgb(150, 5, 5);
+}
+
+ h3{
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+}
+.game{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    
+}
+.score{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+.score table{
+    width: 30%;
+    color: white;
+    table-layout:fixed;
+    margin-bottom: 24px;
+    
+}
+#playerPoints,#computerPoints{
+    font-size: 120px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+}
+.selection{
+    flex: 1;
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 400px;
+    
+}
+img{
+    padding: 15px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+#comment{
+    display: block;
+}
+
+
+.history table{
+    width: 30%;
+    color: white;
+    table-layout:fixed;
+    margin-bottom: 24px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+
+.history thead td{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0;
+
+}
+
+.history{
+    margin-top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.footer{
+    flex: 1;
+    display: flex;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <h1>Rock Paper Scissors</h1>
+        <h3>Man vs Computer, who is better in this game of luck!!</h3>
+    </section>
+    <section class ="game">
+
+        <div class="score">
+            <Table>
+            
+                <tbody>
+                    <tr>
+                        <td id="playerPoints">0</td>
+                        <td id="computerPoints">0</td>
+                    </tr>
+                    <tr>
+                        <td>PLAYER</td>
+                        <td>COMPUTER</td>
+                    </tr>
+                </tbody>
+            </Table>
+            <h2 id="comment" hidden></h2>
+            <h2 id="result" hidden></h2>
+            <button onclick="resetGame();">Reset Game</button>
+        </div>
+        <div class ="selection">
+            <div id="playerSelection"class="playerSelection">
+                <h3 id="message">Select you weapon and start the fight!!</h3>
+                <div class="card">
+                    <img  id="playerWeapon0"src="./images/rock.png" alt="Rock" width="90" height="90" onclick="playRound(0,computerPlay());">
+                    <img  id="playerWeapon1"src="./images/paper.png" alt="Paper" width="90" height="90" onclick="playRound(1,computerPlay());">
+                    <img  id="playerWeapon2"src="./images/scissors.png" alt="Scissors" width="90" height="90" onclick="playRound(2,computerPlay());">
+                </div>
+            </div>
+            <div class="computerSelection">
+                <h3 >Computer selected:</h3>
+                <div class="card">
+                    <img  id="computerWeapon0" src="./images/rock.png" alt="Rock" width="90" height="90" >
+                    <img  id="computerWeapon1" src="./images/paper.png" alt="Paper" width="90" height="90" >
+                    <img  id="computerWeapon2"src="./images/scissors.png" alt="Scissors" width="90" height="90">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="history">
+        <Table id="history_table">
+            <thead>
+                <tr>
+                    <td>Player Selected</td>
+                    <td>Computer selected</td>
+                    <td>Score</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </Table>
+
+    </section>
+
+    <section class="footer">
+
+    </section>
+
+
+    
+</body>
+</html>
